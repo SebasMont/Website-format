@@ -1,0 +1,201 @@
+html
+{
+    font-family: calibri;
+}
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    background-color: #FDFDFD;
+}
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+#header-page
+{
+    position: fixed;
+    background-color: #2C2C2C;
+    top: 0px;
+    width: 100%;
+    height: 56px;
+}
+#header-page ul
+{
+    height: 56px;
+}
+#header-page ul li
+{
+    display: inline-block;
+    list-style-type: none;
+    font-size: 20px;
+}
+#header-page ul li a
+{
+    display: block;
+    margin: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    float: left;
+}
+#Logotipo
+{
+    width: 46px;
+    height: 46px;
+    border-radius: 8px;
+    padding: 2px 2px 0px 2px;
+}
+#nombre-marca
+{
+    padding: 5px 5px 10px 5px;
+    font-size: 24px;
+    color: hsla(120, 70%, 60%, 1);
+}
+li a.active
+{
+    color: white;
+    background-color: #777777;
+    padding: 17px;
+    font-size: 17px;
+}
+li a.section
+{
+    color: white;
+    font-size: 17px;
+    padding: 17px;
+}
+li a.section:hover
+{
+    background-color: #777777;
+    color: white;
+}
+#main-content
+{
+    margin-top: 56px;
+    background-color: #FAFAFA;
+    background-size: cover;
+    height: auto;
+}
+h2#inicio-title
+{
+    text-align: left;
+    font-size: 55px;
+    color: hsla(120, 80%, 35%, 1);
+    line-height: 120px;
+    margin-bottom: 230px;
+    padding-left: 15px;
+    background-color: hsla(0, 0%, 100%, 0.4);
+}
+h2#servicios-title
+{
+    text-align: center;
+    font-size: 50px;
+    color: hsla(120, 80%, 35%, 1);
+    line-height: 130px;
+    background-color: hsla(0, 0%, 100%, 0.5);
+}
+p.right-align
+{
+    margin: 3px;
+    padding: 8px;
+    display: block;
+    max-width: 51%;
+    border-radius: 0px 15px 0px 15px;
+    float: right;
+    clear: right;
+    vertical-align: middle;
+    font-size: 22px;
+}
+.inicio-screen-page1
+{
+    height: 600px;
+    width: 100%;
+    background-image: linear-gradient(hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, 0.9)), url("/home/sebastian/Documentos/Trabajo/Markpoint_Images/Portada3.jpg");
+    background-size: 100% 100%;
+    text-align: right;
+    
+}
+.inicio-screen-page2
+{
+    height: 600px;
+    background-image: linear-gradient(hsla(0, 0%, 100%, 0.9), hsla(0, 0%, 100%, 0)), url("/home/sebastian/Documentos/Trabajo/Markpoint_Images/Portada4.jpg");
+    background-size: 100% 100%;
+    text-align: right;
+}
+.servicios-screen-page1
+{
+    height: 600px;
+    width: 100%;
+    background-image: linear-gradient(to right, white, transparent), url("/home/sebastian/Documentos/Trabajo/Markpoint_Images/prod-audiovis.jpg");
+    background-size: 100% 100%;
+}
+.servicios-screen-page2
+{
+    background-image: linear-gradient(to right, white, transparent),url("/home/sebastian/Documentos/Trabajo/Markpoint_Images/edicion-video.jpg");
+    background-size: 100% 100%;
+    height: 600px;
+    width: 100%;
+}
+.servicios-screen-page3
+{
+    background-image: linear-gradient(transparent, white),url("/home/sebastian/Documentos/Trabajo/Markpoint_Images/manejo_facebook.png");
+    background-size: 100% 100%;
+    height: 600px;
+    width: 100%;
+}
+.servicios-screen-page4
+{
+    height: 600px;
+    width: 100%;
+}
+img.demo-picture
+{
+    height: 240px;
+    width: 380px;
+    float: right;
+    clear: right;
+    border-radius: 12px;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+.social-tag
+{
+    display: block;
+    background-color: #454545;
+    bottom: 0px;
+    left: 0px;
+    position: fixed;
+    width: 38px;
+    height: 114px;
+    border-radius: 0px 8px 8px 0px;
+}
+.social-tag ul li
+{
+    list-style-type: none;
+    max-width: 38px;
+    max-height: 38px;
+}
+.social-tag ul li a
+{
+    display: block;
+    text-decoration: none;
+    padding: 3px 4px 0px 4px;
+}
+li a img.social-icon
+{
+    height: 30px;
+    width: 30px;
+}
+.social-tag ul li a:hover
+{
+    background-color: #C5C5C5;
+}
+#footer-page
+{
+    background-color: #454545;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
